@@ -54,7 +54,7 @@ const reducer = (state = initialState, action) => {
     case actionTypes.PURCHASE_BURGER_START:
       return purchseBurgerStart(state, action);
 
-    case actionTypes.PURCHASE_BURGER_SUCCES:
+    case actionTypes.PURCHASE_BURGER_SUCCESS:
       return purchseBurgerSuccess(state, action);
 
     case actionTypes.PURCHASE_BURGER_FAIL:
@@ -74,3 +74,4 @@ const reducer = (state = initialState, action) => {
 };
 
 export default reducer;
+

@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-// import Aux from '../../hoc/Aux/Aux';
 import Aux from '../../hoc/ReactAux/ReactAux';
 
 import Burger from '../../components/Burger/Burger';
@@ -81,7 +80,6 @@ class BurgerBuilder extends Component {
                 purchaseCancelled={this.purchaseCancelHandler}
                 purchaseContinued={this.purchaseContinueHandler} />;
         }
-        // {salad: true, meat: false, ...}
         return (
             <Aux>
                 <Modal show={this.state.purchasing} modalClosed={this.purchaseCancelHandler}>
