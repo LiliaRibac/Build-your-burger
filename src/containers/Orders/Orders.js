@@ -23,7 +23,6 @@ class Orders extends Component {
         />
       ));
     }
-    console.log(`$this.props.orders}  areerrr herrr`)
     return <div>{orders}</div>;
   }
 }
